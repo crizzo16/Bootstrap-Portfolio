@@ -1,0 +1,142 @@
+/* Entire Page */
+html, body {
+    min-width: 640px;
+}
+
+body {
+    background: url(../images/concrete_seamless.png);
+}
+
+.content {
+    background: #fff;   
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* Navbar CSS */
+.title {
+    font-family: 'Georgia', Times, Times New Roman, sans-serif;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.navbar-color {
+    background: #fff;
+    color: #cccccc;
+}
+
+.main-brand {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    height: inherit;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#name {
+    color: #ffffff;
+}
+
+.navi {
+    border-bottom: 2px solid #cccccc;
+    overflow: hidden;
+    padding: 0px;   
+}
+
+#navi-top {
+    border-bottom: none;
+   
+}
+
+.name-sm {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* About Me */
+#selfie-container {
+    max-width: 300px;
+}
+
+#selfie {
+    border: 2px ridge #cccccc;
+    margin-right: 30px;
+}
+
+
+/* Portfolio */
+.image-desc {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.description {
+    background: #4aaaa5;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 273px;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+}
+
+.description-l {
+    width: 275px;
+}
+
+.description-m {
+    width: 315px;
+}
+
+.description-sm {
+    width: 480px;
+}
+
+.description:hover {
+    background: rgba(74, 170, 165, .2);
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Contact page*/
+#con-submit {
+    background: #4aaaa5;
+    color: #ffffff;
+    border-color: #31918c;
+} 
+
+#con-submit:hover {
+    background: #31918c;
+}
+
+/* Footer */
+footer {
+    background: #777777;
+    color: #cccccc;
+    border-top: 5px solid #4aaaa5;
+}
+
+
+.color1 {
+    background: #ff00ff;
+}
+
+.color2 {
+    background: #00ff00;
+}
+
+.color3 {
+    background: #ffff00;
+}
